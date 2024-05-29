@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-28T17:32:47 IST" name="Suite" finished-at="2024-05-28T17:37:04 IST" duration-ms="257204">
+    <groups>
+    </groups>
+    <test started-at="2024-05-28T17:32:47 IST" name="Test" finished-at="2024-05-28T17:37:04 IST" duration-ms="257204">
+      <class name="Tests.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LogoutTest@35e2d654]" started-at="2024-05-28T17:36:51 IST" name="setUp" finished-at="2024-05-28T17:36:55 IST" duration-ms="4688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutFromMyAccount()[pri:0, instance:Tests.LogoutTest@35e2d654]" started-at="2024-05-28T17:36:55 IST" name="logoutFromMyAccount" finished-at="2024-05-28T17:37:01 IST" duration-ms="5679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromMyAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LogoutTest@35e2d654]" started-at="2024-05-28T17:37:01 IST" name="tearDown" finished-at="2024-05-28T17:37:04 IST" duration-ms="3214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.LogoutTest -->
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:32:47 IST" name="setUp" finished-at="2024-05-28T17:32:53 IST" duration-ms="5841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkBrokenLinks()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:32:53 IST" name="checkBrokenLinks" finished-at="2024-05-28T17:34:27 IST" duration-ms="93536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBrokenLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:34:27 IST" name="tearDown" finished-at="2024-05-28T17:34:30 IST" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:34:30 IST" name="setUp" finished-at="2024-05-28T17:34:37 IST" duration-ms="7101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginToApplicationUsingKeyboardKeys()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:34:37 IST" name="loginToApplicationUsingKeyboardKeys" finished-at="2024-05-28T17:34:52 IST" duration-ms="14985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplicationUsingKeyboardKeys -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:34:52 IST" name="tearDown" finished-at="2024-05-28T17:34:55 IST" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:34:57 IST" name="setUp" finished-at="2024-05-28T17:35:03 IST" duration-ms="6556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login_With_Invalid_Creadentails(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:03 IST" name="login_With_Invalid_Creadentails" data-provider="getData" finished-at="2024-05-28T17:35:06 IST" duration-ms="3178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_With_Invalid_Creadentails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:06 IST" name="tearDown" finished-at="2024-05-28T17:35:10 IST" duration-ms="3170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:10 IST" name="setUp" finished-at="2024-05-28T17:35:14 IST" duration-ms="4311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login_With_Invalid_Creadentails(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:14 IST" name="login_With_Invalid_Creadentails" data-provider="getData" finished-at="2024-05-28T17:35:18 IST" duration-ms="4190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kakaderahul70@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_With_Invalid_Creadentails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:18 IST" name="tearDown" finished-at="2024-05-28T17:35:21 IST" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:21 IST" name="setUp" finished-at="2024-05-28T17:35:27 IST" duration-ms="5286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login_With_Invalid_Creadentails(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:27 IST" name="login_With_Invalid_Creadentails" data-provider="getData" finished-at="2024-05-28T17:35:30 IST" duration-ms="3125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_With_Invalid_Creadentails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:30 IST" name="tearDown" finished-at="2024-05-28T17:35:33 IST" duration-ms="3168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:33 IST" name="setUp" finished-at="2024-05-28T17:35:38 IST" duration-ms="5556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login_With_Invalid_Creadentails(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:38 IST" name="login_With_Invalid_Creadentails" data-provider="getData" finished-at="2024-05-28T17:35:42 IST" duration-ms="3216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kakaderahul70@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_With_Invalid_Creadentails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:42 IST" name="tearDown" finished-at="2024-05-28T17:35:45 IST" duration-ms="3185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:45 IST" name="setUp" finished-at="2024-05-28T17:35:49 IST" duration-ms="4378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login_With_Invalid_Creadentails(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:49 IST" name="login_With_Invalid_Creadentails" data-provider="getData" finished-at="2024-05-28T17:35:53 IST" duration-ms="3601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kakaderahul70@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_With_Invalid_Creadentails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:53 IST" name="tearDown" finished-at="2024-05-28T17:35:56 IST" duration-ms="3227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:35:56 IST" name="setUp" finished-at="2024-05-28T17:36:02 IST" duration-ms="6199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login_With_Valid_Credentials(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:02 IST" name="login_With_Valid_Credentials" data-provider="getData" finished-at="2024-05-28T17:36:06 IST" duration-ms="3377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kakaderahul788@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_With_Valid_Credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:06 IST" name="tearDown" finished-at="2024-05-28T17:36:09 IST" duration-ms="3166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:09 IST" name="setUp" finished-at="2024-05-28T17:36:14 IST" duration-ms="5228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPlaceHolders()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:14 IST" name="verifyPlaceHolders" finished-at="2024-05-28T17:36:17 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceHolders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:17 IST" name="tearDown" finished-at="2024-05-28T17:36:21 IST" duration-ms="4696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:21 IST" name="setUp" finished-at="2024-05-28T17:36:27 IST" duration-ms="5909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Login_With_Back_Button(java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:27 IST" name="verify_Login_With_Back_Button" data-provider="getData" finished-at="2024-05-28T17:36:37 IST" duration-ms="9480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kakaderahul788@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_With_Back_Button -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:37 IST" name="tearDown" finished-at="2024-05-28T17:36:40 IST" duration-ms="3226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:40 IST" name="setUp" finished-at="2024-05-28T17:36:45 IST" duration-ms="5089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_UI_Of_LoginPage()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:45 IST" name="verify_UI_Of_LoginPage" finished-at="2024-05-28T17:36:47 IST" duration-ms="2475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_UI_Of_LoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@222545dc]" started-at="2024-05-28T17:36:47 IST" name="tearDown" finished-at="2024-05-28T17:36:51 IST" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
